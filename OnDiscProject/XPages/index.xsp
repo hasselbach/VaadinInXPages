@@ -29,7 +29,9 @@
 	<!--  VAADIN Application -->
 	<vaadin:Vaadin
 		id="Vaadin1"
+		url = "/vaadin/"
 		divId="addressbook"
 		version="7.3.8"
 		forceResize="true" />
+		
 </xp:view>
