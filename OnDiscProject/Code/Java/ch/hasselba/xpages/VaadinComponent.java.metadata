@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" replicaid="C1257FA50033A929" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="16a" sequence="280" unid="1F2C4C00B2B8FA32C1257FA50033BD97">
+<created><datetime dst="true">20160430T112508,71+02</datetime></created>
+<modified><datetime dst="true">20160503T110543,28+02</datetime></modified>
+<revised><datetime dst="true">20160503T110543,26+02</datetime></revised>
+<lastaccessed><datetime dst="true">20160503T110543,26+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160430T112508,71+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>ch/hasselba/xpages/VaadinComponent.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ch/hasselba/xpages/VaadinComponent.java</text></item>
+
+</note>

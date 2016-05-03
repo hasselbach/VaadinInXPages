@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE faces-config PUBLIC "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+                              "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+<faces-config>
+	<faces-config-extension>
+		<namespace-uri>http://vaadin.com/xsp/control</namespace-uri>
+		<default-prefix>vaadin</default-prefix>
+	</faces-config-extension>
+	<component>
+		<component-type>ch.hasselba.xpages.VaadinComponent</component-type>
+		<component-class>ch.hasselba.xpages.VaadinComponent</component-class>
+		<component-extension>
+			<component-family>ch.hasselba.xpages</component-family>
+			<renderer-type>ch.hasselba.xpages</renderer-type>
+			<tag-name>Vaadin</tag-name>
+			<designer-extension>
+				<in-palette>true</in-palette>
+				<category>Vaadin</category>
+			</designer-extension>
+		</component-extension>
+		<property>
+			<property-name>url</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<property-name>divId</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<property-name>vaadindir</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<property-name>widgetset</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<property-name>theme</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<property-name>version</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<property-name>browserDetailsUrl</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<property-name>serviceUrl</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+		<property>
+			<suggested-value>true</suggested-value>
+			<display-name>Force Resize</display-name>
+			<property-name>forceResize</property-name>
+			<property-class>java.lang.Boolean</property-class>
+			<default-value>false</default-value>
+			<description>If set to true, a style sheet to maximize the height is added.</description>
+		</property>
+	</component>
+</faces-config>

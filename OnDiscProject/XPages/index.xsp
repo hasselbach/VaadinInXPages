@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:vaadin="http://vaadin.com/xsp/control"
+	createForm="false">
+	
+
+	<!-- XPages Application -->
+	<xp:form>
+		<xp:div id="refreshMe">
+			<h1>XPage</h1>
+			<xp:label
+				value="#{javascript:java.lang.System.nanoTime()}"
+				id="label1">
+			</xp:label>
+		</xp:div>
+		<xp:button
+			value="refresh"
+			id="button1">
+			<xp:eventHandler
+				event="onclick"
+				submit="true"
+				refreshMode="partial"
+				refreshId="refreshMe">
+			</xp:eventHandler>
+		</xp:button>
+	</xp:form>
+	
+	<!--  VAADIN Application -->
+	<vaadin:Vaadin
+		id="Vaadin1"
+		divId="addressbook"
+		version="7.3.8"
+		forceResize="true" />
+</xp:view>
