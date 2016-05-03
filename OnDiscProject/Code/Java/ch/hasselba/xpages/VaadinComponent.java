@@ -312,7 +312,13 @@ public class VaadinComponent extends UIComponentBase {
 
 		// fill HTML Template variables
 		String divId = isEmpty(getDivId()) ? url.substring(1).replaceAll("/", "-") : getDivId();
-		String context = FacesContext.getCurrentInstance().getExternalContext().getRequestContextPath() + url;
+		String context = "";
+
+		if (url.startsWith("http://") || url.startsWith("https://")) {
+			context = url;
+		} else {
+			context = FacesContext.getCurrentInstance().getExternalContext().getRequestContextPath() + url;
+		}
 
 		result = result.replace("${divId}", divId);
 		result = result.replace("${theme}", isEmpty(getTheme()) ? "valo" : getTheme());

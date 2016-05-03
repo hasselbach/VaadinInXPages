@@ -1,5 +1,4 @@
 # VaadinInXPages
-vaadin-in-xpages
 
 A UIComponent to embed Vaadin Applications into XPages
 
